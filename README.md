@@ -1,1 +1,1 @@
-# WebTask1 part2
+The javaScript gave me an error while i was working on it, i tried to fix it only to make it worse. The gallery lightbox was not responding well so i opted for the slideshow but it didn't come out the way i hoped and wanted it to. As much as i wanted perfection, i'm bumped on how the website came out
