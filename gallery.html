@@ -16,105 +16,108 @@
     </ul>
 </head>
 <body>
+   
     <h1><i>Our Gallery</i></h1>
     <p><i>Take a look at our offerings</i></p>
 
-    <div class="gallery">
-        <a target="_blank"
-        href="Image/blue berries.jpg">
-<img src="Image/blue berries.jpg" alt="blueberry muffins" width="600" height="400">
-</a>
-</div> 
+    <!--slideshow-->
+    <div class="container">
 
-<div class="gallery">
-    <a target="_blank"
-    href="Image/coffee shop.jpg">
-<img src="Image/coffee shop.jpg" alt="shop" width="600" height="400">
-</a>
+    <!--full images-->
+    <div class="mySlide">
+        <div class="numbertext">1 / 13</div>
+<img src="Image/blue berries.jpg" alt="muffins" width="600" height="400" style="width:100%">
+</div>
+</script>
+<div class="mySlide">
+    <div class="numbertext">2 / 13</div>
+<img src="Image/coffee shop.jpg" alt="shop" width="600" height="400"  style="width: 100%;">
 </div>
 
-<div class="gallery">
-    <a target="_blank"
-    href=" Image/inside the cafe.jpg">
-<img src=" Image/inside the cafe.jpg" alt="cafe" width="600" height="400">
-</a>
+<div class="mySlide">
+    <div class="numbertext">3 / 13</div>
+<img src=" Image/inside the cafe.jpg" alt="cafe" width="600" height="400" style="width: 100%;">
 </div>
 
-<div class="gallery">
-    <a target="_blank"
-    href="Image/transparent.jpg">
-<img src="Image/transparent.jpg" alt="coffee" width="600" height="400">
-</a>
+<div class="mySlide">
+    <div class="numbertext">4 / 13</div>
+<img src="Image/transparent.jpg" alt="coffee" width="600" height="400" style="width: 100%;">
 </div>
 
-<div class="gallery">
-    <a target="_blank"
-    href="Image/beans.jpg">
-<img src="Image/beans.jpg" alt="beans" width="600" height="400">
-</a>
+<div class="mySlides">
+    <div class="numbertext"> 5/ 13</div>
+<img src="Image/beans.jpg" alt="beans" width="600" height="400" style="width: 100%;">
 </div>
 
-<div class="gallery">
-    <a target="_blank"
-    href="Image/black.jpg">
-<img src="Image/black.jpg" alt="expresso" width="600" height="400">
-</a>
+<div class="mySlides">
+    <div class="numbertext"> 6/ 13</div>
+<img src="Image/black.jpg" alt="expresso" width="600" height="400" style="width: 100%;">
 </div>
 
-<div class="gallery">
-    <a target="_blank"
-    href="Image/coffee and cakes.jpg">
-<img src="Image/coffee and cakes.jpg" alt="both" width="600" height="400">
-</a>
+<div class="mySlides">
+    <div class="numdertext">7/13</div>
+<img src="Image/coffee and cakes.jpg" alt="both" width="600" height="400" style="width: 100%;">
 </div>
 
-<div class="gallery">
-    <a target="_blank"
-    href="Image/coffee mug.jpg">
-<img src="Image/coffee mug.jpg" alt="coffee" width="600" height="400">
-</a>
+<div class="mySlides">
+    <div class="numbertext">8/13</div>
+<img src="Image/coffee mug.jpg" alt="coffee" width="600" height="400" style="width: 100%;">
 </div>
        
-<div class="gallery">
-    <a target="_blank"
-    href="Image/coffee.jpg">
-<img src="Image/coffee.jpg" alt="coffee" width="600" height="400">
-</a>
+<div class="mySlides">
+    <div class="numbertext">9/13</div>
+<img src="Image/coffee.jpg" alt="coffee" width="600" height="400" style="width: 100%;">
 </div>
 
-<div class="gallery">
-    <a target="_blank"
-    href="Image/mashmellows.jpg">
-<img src="Image/mashmellows.jpg " alt="latte" width="600" height="400">
-</a>
+<div class="mySlides">
+    <div class="numbertext">10/13</div>
+<img src="Image/mashmellows.jpg " alt="latte" width="600" height="400" style="width: 100%;">
 </div>
 
-<div class="gallery">
-    <a target="_blank"
-    href="Image/sprinkles.jpg">
-<img src="Image/sprinkles.jpg" alt="cake" width="600" height="400">
-</a>
+<div class="mySlides">
+    <div class="numbertext">11/13</div>
+<img src="Image/sprinkles.jpg" alt="cake" width="600" height="400" style="width: 100%;">
 </div>
 
-<div class="gallery">
-    <a target="_blank"
-    href="Image/strawberry icing.jpg">
-<img src="Image/strawberry icing.jpg" alt="cake" width="600" height="400">
-</a>
+<div class="mySlides">
+    <div class="numbertext">12/13</div>
+<img src="Image/strawberry icing.jpg" alt="cake" width="600" height="400" style="width: 100%;">
 </div>
 
-<div class="gallery">
-    <a target="_blank"
-    href="Image/vanilla.jpg">
-<img src="Image/vanilla.jpg" alt="cake" width="600" height="400">
-</a>
+<div class="mySlides">
+    <div class="numbertext">13/13</div>
+<img src="Image/vanilla.jpg" alt="cake" width="600" height="400" style="width: 100%;">
 </div>
 
+<!--Next and previous buttons-->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<!--Image Text-->
+<div class="caption-container">
+<p id="caption"></p>
+</div>
+<br>
+<!--The Circle-->
+<div style="text-align: center;">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+    <span class="dot" onclick="currentSlide(9)"></span>
+    <span class="dot" onclick="currentSlide(10)"></span>
+    <span class="dot" onclick="currentSlide(11)"></span>
+    <span class="dot" onclick="currentSlide(12)"></span>
+    <span class="dot" onclick="currentSlide(13)"></span>
+</div>
 <div class="footer">
   <footer>
     <p>Ms B's Bakery &copy;2020. All Rights Reserved.</p>
 </footer>
 </div>
-
 </body>
 </html>
